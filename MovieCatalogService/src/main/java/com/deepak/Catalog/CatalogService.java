@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.deepak.utill.MongoDBUtill;
 
-@Service("catalogService")
+@Service
 public class CatalogService {
 
 	public  CatalogItem getCatalog(int id){
